@@ -21,9 +21,9 @@ def select_name_and_series_subgenres_of_authors
 end
 
 def select_series_title_with_most_human_characters
-  "SELECT s.title, c.* FROM series s
+  "SELECT s.title FROM series s
    JOIN characters c ON s.author_id = c.author_id
-   WHERE species = 'human';
+   WHERE species = 'human' LIMIT 1;
    "
 end
 
