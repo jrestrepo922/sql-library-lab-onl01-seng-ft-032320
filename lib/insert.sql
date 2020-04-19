@@ -26,3 +26,21 @@ INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Her
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Ron Weasley", "I've got a bad feeling about this...", "human", 1, 1);
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Lucius Malfoy", "Die Potter!", "human", 1, 1);
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Rubeus Hagrid", "Just gotta know how to calm 'em", "half-giant", 1, 1);
+
+
+INSERT INTO character_books (character_id, book_id) VALUES (1, 1);
+INSERT INTO character_books (character_id, book_id) VALUES (2, 1);
+INSERT INTO character_books (character_id, book_id) VALUES (3, 1);
+INSERT INTO character_books (character_id, book_id) VALUES (1, 2);
+INSERT INTO character_books (character_id, book_id) VALUES (2, 2);
+INSERT INTO character_books (character_id, book_id) VALUES (3, 2);
+INSERT INTO character_books (character_id, book_id) VALUES (1, 3);
+INSERT INTO character_books (character_id, book_id) VALUES (2, 3);
+INSERT INTO character_books (character_id, book_id) VALUES (3, 3);
+INSERT INTO character_books (character_id, book_id) VALUES (4, 4);
+INSERT INTO character_books (character_id, book_id) VALUES (4, 5);
+INSERT INTO character_books (character_id, book_id) VALUES (4, 6);
+INSERT INTO character_books (character_id, book_id) VALUES (5, 4);
+INSERT INTO character_books (character_id, book_id) VALUES (5, 5);
+INSERT INTO character_books (character_id, book_id) VALUES (5, 6);
+INSERT INTO character_books (character_id, book_id) VALUES (6, 4);
