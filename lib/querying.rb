@@ -14,14 +14,14 @@ end
 def select_name_and_series_subgenres_of_authors
   "SELECT authors.name, subgenres.name
   FROM series
-  INNER JOIN authors
+  INNER JOIN authorss
   ON series.author_id = authors.id
   INNER JOIN subgenres
   ON series.subgenre_id = subgenres.id;"
 end
 
 def select_series_title_with_most_human_characters
-  "SELECT s.title, c.* FROM seires s
+  "SELECT s.title, c.* FROM series s
    JOIN characters c ON s.author_id = c.author_id;
    "
 end
